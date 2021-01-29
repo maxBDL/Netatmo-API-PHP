@@ -1,0 +1,202 @@
+#button1{
+  position: absolute;
+  top: 100px;
+  left: 87.5px;
+  border-radius: 50px;
+  height: 50px;
+  width: 225px;
+  background-color: $dark_blue;
+  border: 0;
+  z-index: 998;
+  color: $white;
+}
+
+#button2 {
+  position: absolute;
+  top: 100px;
+  left: 312.5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  z-index: 998;
+  background-color: $dark_blue;
+  border: 0;
+  span{
+    color: $orange;
+  }
+}
+
+#inputHumidity {
+  display: none;
+}
+#inputTemp {
+  display: none;
+}
+
+#ville {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  width: 350px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid $dark_blue;
+  background-color: $white;
+  color: $dark_blue;
+  font-size: 25px;
+  padding-left: 25px;
+  z-index: 1000;
+}
+
+#rechercher {
+  position: absolute;
+  top: 40px;
+  left: 350px;
+  width: 50px;
+  height: 50px;
+  border: 0;border-radius: 50px;
+  color: $orange;
+  background-color: $dark_blue;
+  z-index: 1000;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $dark_blue;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $dark_blue;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: $dark_blue;
+}
+
+#list_villes {
+  position: absolute;
+  top: 65px;
+  left: 50px;
+  z-index: 999;
+  background-color: white;
+  width: 350px;
+  border-radius: 0 0 50px 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  border: 2px solid $dark_blue;
+}
+
+p {
+  padding: 10px 3px;
+  margin: 0;
+}
+
+p:hover {
+  background-color: #bbbbbb;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 576px) {
+  #button1{
+    left:187.5px;
+  }
+
+  #button2 {
+    left: 412.5px;
+  }
+
+  #inputTemp {
+    left: 300px;
+  }
+
+  #ville {
+    left: 150px;
+  }
+
+  #rechercher {
+    left: 450px;
+  }
+
+  #list_villes {
+    left: 150px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media  screen and  (min-width: 768px) {
+  #button1{
+    left:287.5px;
+  }
+
+  #button2 {
+    left: 512.5px;
+  }
+
+  #inputTemp {
+    left: 400px;
+  }
+
+  #ville {
+    left: 250px;
+  }
+
+  #rechercher {
+    left: 550px;
+  }
+
+  #list_villes {
+    left: 250px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media screen and  (min-width: 992px) {
+  #button1{
+    top: 40px;
+  left: 460px;
+}
+
+  #button2 {
+    top: 40px;
+    left: 405px;
+  }
+
+  #inputTemp {
+    left: 400px;
+  }
+
+  #ville {
+    left: 50px;
+  }
+
+  #rechercher {
+    left: 350px;
+  }
+
+  #list_villes {
+    left: 50px;
+  }
+  #inputHumidity, #inputTemp {
+    display: inline;
+    position: absolute;
+    z-index: 1000;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid $dark_blue;
+    background-color: $white;
+    color: $dark_blue;
+    font-size: 20px;
+    padding-left: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  #inputTemp {
+    top: 40px;
+    left: 75vw;
+  }
+  #inputHumidity{
+     top: 40px;
+     left: 84.7vw;
+   }
+}
