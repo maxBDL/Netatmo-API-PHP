@@ -311,3 +311,10 @@ function recherche() {
    }
 }
 
+
+var close = document.getElementsByClassName('close')[0];
+var infos = document.getElementsByClassName('infos')[0];
+close.addEventListener('click', () => {
+   console.log('ok');
+   infos.classList.toggle('active');
+});
