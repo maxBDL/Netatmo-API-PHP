@@ -8,7 +8,7 @@ var carte = L.map('maCarte', {center: [44.56, 6.08],zoom: 14,zoomControl: false}
 //RAJOUTER LES DEUX PROCHAINES LIGNES
 ////////////////////////////////////
 L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(carte);
-L.control.zoom({position:'bottomright'}).addTo(carte);
+L.control.zoom({position:'bottomleft'}).addTo(carte);
 //////////////////////////////////////////////
 /////////////////////////////////////////////
 

@@ -28,9 +28,11 @@
 
 #inputHumidity {
   display: none;
+  z-index: 998;
 }
 #inputTemp {
   display: none;
+  z-index: 998;
 }
 
 #ville {
@@ -45,7 +47,7 @@
   color: $dark_blue;
   font-size: 25px;
   padding-left: 25px;
-  z-index: 1000;
+  z-index: 999;
 }
 
 #rechercher {
@@ -57,7 +59,7 @@
   border: 0;border-radius: 50px;
   color: $orange;
   background-color: $dark_blue;
-  z-index: 1000;
+  z-index: 999;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: $dark_blue;
@@ -76,7 +78,7 @@
   position: absolute;
   top: 65px;
   left: 50px;
-  z-index: 999;
+  z-index: 998;
   background-color: white;
   width: 350px;
   border-radius: 0 0 50px 50px;
@@ -180,7 +182,7 @@ p:hover {
   #inputHumidity, #inputTemp {
     display: inline;
     position: absolute;
-    z-index: 1000;
+    z-index: 998;
     width: 100px;
     height: 50px;
     border-radius: 50px;
