@@ -1,1 +1,731 @@
-*,*::before,*::after{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:transparent}@-ms-viewport{width:device-width}article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}body{margin:0;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}[tabindex="-1"]:focus{outline:none !important}hr{box-sizing:content-box;height:0;overflow:visible}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:0.5rem}p{margin-top:0;margin-bottom:1rem}abbr[title],abbr[data-original-title]{text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted;cursor:help;border-bottom:0}address{margin-bottom:1rem;font-style:normal;line-height:inherit}ol,ul,dl{margin-top:0;margin-bottom:1rem}ol ol,ul ul,ol ul,ul ol{margin-bottom:0}dt{font-weight:700}dd{margin-bottom:.5rem;margin-left:0}blockquote{margin:0 0 1rem}dfn{font-style:italic}b,strong{font-weight:bold}small{font-size:80%}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}a:hover{color:#0056b3;text-decoration:underline}a:not([href]):not([tabindex]){color:inherit;text-decoration:none}a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:inherit;text-decoration:none}a:not([href]):not([tabindex]):focus{outline:0}pre,code,kbd,samp{font-family:monospace, monospace;font-size:1em}pre{margin-top:0;margin-bottom:1rem;overflow:auto;-ms-overflow-style:scrollbar}figure{margin:0 0 1rem}img{vertical-align:middle;border-style:none}svg:not(:root){overflow:hidden}a,area,button,[role="button"],input:not([type="range"]),label,select,summary,textarea{-ms-touch-action:manipulation;touch-action:manipulation}table{border-collapse:collapse}caption{padding-top:0.75rem;padding-bottom:0.75rem;color:#868e96;text-align:left;caption-side:bottom}th{text-align:inherit}label{display:inline-block;margin-bottom:.5rem}button{border-radius:0}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}input,button,select,optgroup,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,input{overflow:visible}button,select{text-transform:none}button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{padding:0;border-style:none}input[type="radio"],input[type="checkbox"]{box-sizing:border-box;padding:0}input[type="date"],input[type="time"],input[type="datetime-local"],input[type="month"]{-webkit-appearance:listbox}textarea{overflow:auto;resize:vertical}fieldset{min-width:0;padding:0;margin:0;border:0}legend{display:block;width:100%;max-width:100%;padding:0;margin-bottom:.5rem;font-size:1.5rem;line-height:inherit;color:inherit;white-space:normal}progress{vertical-align:baseline}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{outline-offset:-2px;-webkit-appearance:none}[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}output{display:inline-block}summary{display:list-item}template{display:none}[hidden]{display:none !important}img{width:100%}*:focus{outline:none}a:active,a:focus{-moz-outline-style:none}#button1{position:absolute;top:100px;left:87.5px;border-radius:50px;height:50px;width:225px;background-color:#193b6a;border:0;z-index:998;color:#fff}#button2{position:absolute;top:100px;left:312.5px;height:50px;width:50px;border-radius:50px;z-index:998;background-color:#193b6a;border:0}#button2 span{color:#ff8f15}#inputHumidity{display:none;z-index:998}#inputTemp{display:none;z-index:998}#ville{position:absolute;top:40px;left:50px;width:350px;height:50px;border-radius:50px;border:2px solid #193b6a;background-color:#fff;color:#193b6a;font-size:25px;padding-left:25px;z-index:999}#rechercher{position:absolute;top:40px;left:350px;width:50px;height:50px;border:0;border-radius:50px;color:#ff8f15;background-color:#193b6a;z-index:999}::placeholder{color:#193b6a;opacity:1}:-ms-input-placeholder{color:#193b6a}::-ms-input-placeholder{color:#193b6a}#list_villes{position:absolute;top:65px;left:50px;z-index:998;background-color:white;width:350px;border-radius:0 0 50px 50px;padding-left:15px;padding-right:15px;padding-top:20px;border:2px solid #193b6a}p{padding:10px 3px;margin:0}p:hover{background-color:#bbbbbb;cursor:pointer}@media screen and (min-width: 576px){#button1{left:187.5px}#button2{left:412.5px}#inputTemp{left:300px}#ville{left:150px}#rechercher{left:450px}#list_villes{left:150px}}@media screen and (min-width: 768px){#button1{left:287.5px}#button2{left:512.5px}#inputTemp{left:400px}#ville{left:250px}#rechercher{left:550px}#list_villes{left:250px}}@media screen and (min-width: 992px){#button1{top:40px;left:460px}#button2{top:40px;left:405px}#inputTemp{left:400px}#ville{left:50px}#rechercher{left:350px}#list_villes{left:50px}#inputHumidity,#inputTemp{display:inline;position:absolute;z-index:998;width:100px;height:50px;border-radius:50px;border:2px solid #193b6a;background-color:#fff;color:#193b6a;font-size:20px;padding-left:15px;font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"}#inputTemp{top:40px;left:75vw}#inputHumidity{top:40px;left:84.7vw}}.infos{position:fixed;z-index:1001;top:0;right:0;height:100vh;min-width:50vw;transform:translateX(100%);transition:1s ease-in-out;background-color:white;z-index:999}.infos .nav_infos{display:flex;flex-direction:row;justify-content:space-evenly;align-items:center;background-color:#193b6a;border-radius:0 0 75px 75px;height:100px}.infos .nav_infos .time,.infos .nav_infos .trait{display:flex;flex-direction:row;justify-content:center;align-items:center}.infos .nav_infos .icons{display:flex;flex-direction:row;justify-content:space-evenly;align-items:center}.infos .adress{color:#193b6a;text-align:center}.infos .measures{display:flex;flex-direction:column;justify-content:center;align-items:center}.infos .measures .data{display:flex;flex-direction:column;align-items:center;justify-content:center}.infos .measures .data .value{display:flex;flex-direction:column;justify-content:center;align-items:center}.active{transform:translateX(0)}
+/* line 1, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* line 7, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+/* line 20, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+/* line 24, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+/* line 35, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+[tabindex="-1"]:focus {
+  outline: none !important;
+}
+
+/* line 39, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/* line 45, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* line 50, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 55, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+abbr[title],
+abbr[data-original-title] {
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  cursor: help;
+  border-bottom: 0;
+}
+
+/* line 64, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+
+/* line 70, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* line 77, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+
+/* line 84, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+dt {
+  font-weight: 700;
+}
+
+/* line 88, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0;
+}
+
+/* line 93, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+blockquote {
+  margin: 0 0 1rem;
+}
+
+/* line 97, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 101, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 106, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 110, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+/* line 118, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+sub {
+  bottom: -.25em;
+}
+
+/* line 122, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+sup {
+  top: -.5em;
+}
+
+/* line 126, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+/* line 133, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* line 138, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 143, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 148, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+/* line 152, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 160, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  -ms-overflow-style: scrollbar;
+}
+
+/* line 167, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+figure {
+  margin: 0 0 1rem;
+}
+
+/* line 171, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+/* line 176, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 180, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+a,
+area,
+button,
+[role="button"],
+input:not([type="range"]),
+label,
+select,
+summary,
+textarea {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+/* line 193, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* line 197, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+caption {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #868e96;
+  text-align: left;
+  caption-side: bottom;
+}
+
+/* line 205, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+th {
+  text-align: inherit;
+}
+
+/* line 209, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+/* line 214, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+button {
+  border-radius: 0;
+}
+
+/* line 218, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+/* line 223, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 234, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+button,
+input {
+  overflow: visible;
+}
+
+/* line 239, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 244, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/* line 251, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+/* line 259, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+input[type="radio"],
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 265, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"] {
+  -webkit-appearance: listbox;
+}
+
+/* line 272, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+
+/* line 277, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 284, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+legend {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  color: inherit;
+  white-space: normal;
+}
+
+/* line 296, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/* line 300, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 305, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+[type="search"] {
+  outline-offset: -2px;
+  -webkit-appearance: none;
+}
+
+/* line 310, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 315, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+
+/* line 320, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+output {
+  display: inline-block;
+}
+
+/* line 324, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+summary {
+  display: list-item;
+}
+
+/* line 328, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+template {
+  display: none;
+}
+
+/* line 332, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+[hidden] {
+  display: none !important;
+}
+
+/* line 336, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+img {
+  width: 100%;
+}
+
+/* line 340, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+*:focus {
+  outline: none;
+}
+
+/* line 344, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_reset.scss */
+a:active,
+a:focus {
+  -moz-outline-style: none;
+}
+
+/* line 1, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+#button1 {
+  position: absolute;
+  top: 100px;
+  left: 87.5px;
+  border-radius: 50px;
+  height: 50px;
+  width: 225px;
+  background-color: #193b6a;
+  border: 0;
+  z-index: 998;
+  color: #ffffff;
+}
+
+/* line 14, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+#button2 {
+  position: absolute;
+  top: 100px;
+  left: 312.5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  z-index: 998;
+  background-color: #193b6a;
+  border: 0;
+}
+
+/* line 24, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+#button2 span {
+  color: #ff8f15;
+}
+
+/* line 29, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+#inputHumidity {
+  display: none;
+  z-index: 998;
+}
+
+/* line 33, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+#inputTemp {
+  display: none;
+  z-index: 998;
+}
+
+/* line 38, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+#ville {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  width: 350px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid #193b6a;
+  background-color: #ffffff;
+  color: #193b6a;
+  font-size: 18px;
+  padding-left: 25px;
+  z-index: 999;
+}
+
+/* line 53, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+#rechercher {
+  position: absolute;
+  top: 40px;
+  left: 350px;
+  width: 50px;
+  height: 50px;
+  border: 0;
+  border-radius: 50px;
+  color: #ff8f15;
+  background-color: #193b6a;
+  z-index: 999;
+}
+
+/* line 65, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #193b6a;
+  opacity: 1;
+  /* Firefox */
+}
+
+/* line 70, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #193b6a;
+}
+
+/* line 74, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #193b6a;
+}
+
+/* line 78, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+#list_villes {
+  position: absolute;
+  top: 65px;
+  left: 50px;
+  z-index: 998;
+  background-color: white;
+  width: 350px;
+  border-radius: 0 0 50px 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  border: 2px solid #193b6a;
+}
+
+/* line 92, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+p {
+  padding: 10px 3px;
+  margin: 0;
+}
+
+/* line 97, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+p:hover {
+  background-color: #bbbbbb;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+  /* line 104, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #button1 {
+    left: 187.5px;
+  }
+  /* line 108, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #button2 {
+    left: 412.5px;
+  }
+  /* line 112, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #inputTemp {
+    left: 300px;
+  }
+  /* line 116, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #ville {
+    left: 150px;
+  }
+  /* line 120, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #rechercher {
+    left: 450px;
+  }
+  /* line 124, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #list_villes {
+    left: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 131, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #button1 {
+    left: 287.5px;
+  }
+  /* line 135, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #button2 {
+    left: 512.5px;
+  }
+  /* line 139, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #inputTemp {
+    left: 400px;
+  }
+  /* line 143, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #ville {
+    left: 250px;
+  }
+  /* line 147, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #rechercher {
+    left: 550px;
+  }
+  /* line 151, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #list_villes {
+    left: 250px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 158, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #button1 {
+    top: 40px;
+    left: 460px;
+  }
+  /* line 163, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #button2 {
+    top: 40px;
+    left: 405px;
+  }
+  /* line 168, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #inputTemp {
+    left: 400px;
+  }
+  /* line 172, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #ville {
+    left: 50px;
+  }
+  /* line 176, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #rechercher {
+    left: 350px;
+  }
+  /* line 180, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #list_villes {
+    left: 50px;
+  }
+  /* line 183, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #inputHumidity, #inputTemp {
+    display: inline;
+    position: absolute;
+    z-index: 998;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #193b6a;
+    background-color: #ffffff;
+    color: #193b6a;
+    font-size: 20px;
+    padding-left: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  /* line 197, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #inputTemp {
+    top: 40px;
+    left: 75vw;
+  }
+  /* line 201, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  #inputHumidity {
+    top: 40px;
+    left: 84.7vw;
+  }
+}
+
+/* line 1, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_infos.scss */
+.infos {
+  position: fixed;
+  z-index: 1001;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  min-width: 50vw;
+  transform: translateX(100%);
+  transition: 1s ease-in-out;
+  background-color: white;
+  z-index: 999;
+}
+
+/* line 12, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_infos.scss */
+.infos .nav_infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #193b6a;
+  border-radius: 0 0 75px 75px;
+  height: 100px;
+}
+
+/* line 21, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_infos.scss */
+.infos .nav_infos i, .infos .nav_infos p {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+/* line 27, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_infos.scss */
+.infos .nav_infos i:hover {
+  color: #ff8f15;
+}
+
+/* line 31, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_infos.scss */
+.infos .nav_infos p:hover {
+  background-color: transparent;
+}
+
+/* line 35, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_infos.scss */
+.infos .nav_infos .time, .infos .nav_infos .trait {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 41, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_infos.scss */
+.infos .nav_infos .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* line 48, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_infos.scss */
+.infos .adress {
+  color: #193b6a;
+  text-align: center;
+}
+
+/* line 52, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_infos.scss */
+.infos .measures {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 57, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_infos.scss */
+.infos .measures .data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 62, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_infos.scss */
+.infos .measures .data .value {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 77, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_infos.scss */
+.active {
+  transform: translateX(0);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -45,7 +45,7 @@
   border: 2px solid $dark_blue;
   background-color: $white;
   color: $dark_blue;
-  font-size: 25px;
+  font-size: 18px;
   padding-left: 25px;
   z-index: 999;
 }
@@ -56,7 +56,8 @@
   left: 350px;
   width: 50px;
   height: 50px;
-  border: 0;border-radius: 50px;
+  border: 0;
+  border-radius: 50px;
   color: $orange;
   background-color: $dark_blue;
   z-index: 999;
