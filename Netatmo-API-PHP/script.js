@@ -188,7 +188,7 @@ function userPosition() {
             actualiseMap()
          });
       } else {
-         button2.style.backgroundColor = '#eeeeee';
+         button2.style.backgroundColor = '#193b6a';
          displayPosition = false;
          carte.removeLayer(myPosition);
       }
