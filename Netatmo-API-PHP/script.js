@@ -176,11 +176,12 @@ var greenIcon = L.icon({
 var displayPosition = false;
 var myPosition;
 var button2 = document.getElementById('button2');
+var locate = document.getElementById('locate');
 
 function userPosition() {
    if ("geolocation" in navigator) {
       if (displayPosition === false) {
-         button2.style.backgroundColor = '#00ff00';
+         locate.style.color = '#ff8f15';
          displayPosition = true;
          navigator.geolocation.getCurrentPosition(function(position) {
             myPosition = L.marker([position.coords.latitude, position.coords.longitude], {icon: greenIcon}).addTo(carte);
@@ -188,7 +189,7 @@ function userPosition() {
             actualiseMap()
          });
       } else {
-         button2.style.backgroundColor = '#193b6a';
+         locate.style.color = '#ffffff';
          displayPosition = false;
          carte.removeLayer(myPosition);
       }

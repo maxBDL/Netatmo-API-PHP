@@ -421,6 +421,11 @@ a:focus {
 }
 
 /* line 14, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+#button1:hover {
+  color: #ff8f15;
+}
+
+/* line 18, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
 #button2 {
   position: absolute;
   top: 100px;
@@ -433,24 +438,29 @@ a:focus {
   border: 0;
 }
 
-/* line 24, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+/* line 28, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
 #button2 span {
-  color: #ff8f15;
+  color: white;
 }
 
-/* line 29, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+/* line 34, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+#button2:hover span {
+  font-size: 19px;
+}
+
+/* line 39, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
 #inputHumidity {
   display: none;
   z-index: 998;
 }
 
-/* line 33, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+/* line 43, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
 #inputTemp {
   display: none;
   z-index: 998;
 }
 
-/* line 38, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+/* line 48, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
 #ville {
   position: absolute;
   top: 40px;
@@ -466,7 +476,7 @@ a:focus {
   z-index: 999;
 }
 
-/* line 53, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+/* line 63, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
 #rechercher {
   position: absolute;
   top: 40px;
@@ -475,12 +485,12 @@ a:focus {
   height: 50px;
   border: 0;
   border-radius: 50px;
-  color: #ff8f15;
+  color: white;
   background-color: #193b6a;
   z-index: 999;
 }
 
-/* line 65, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+/* line 75, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #193b6a;
@@ -488,19 +498,24 @@ a:focus {
   /* Firefox */
 }
 
-/* line 70, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+/* line 80, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #193b6a;
 }
 
-/* line 74, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+/* line 84, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
 ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: #193b6a;
 }
 
-/* line 78, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+/* line 88, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+#rechercher:hover {
+  color: #ff8f15;
+}
+
+/* line 92, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
 #list_villes {
   position: absolute;
   top: 65px;
@@ -515,100 +530,100 @@ a:focus {
   border: 2px solid #193b6a;
 }
 
-/* line 92, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+/* line 106, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
 p {
   padding: 10px 3px;
   margin: 0;
 }
 
-/* line 97, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+/* line 111, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
 p:hover {
   background-color: #bbbbbb;
   cursor: pointer;
 }
 
 @media screen and (min-width: 576px) {
-  /* line 104, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 118, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #button1 {
     left: 187.5px;
   }
-  /* line 108, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 122, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #button2 {
     left: 412.5px;
   }
-  /* line 112, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 126, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #inputTemp {
     left: 300px;
   }
-  /* line 116, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 130, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #ville {
     left: 150px;
   }
-  /* line 120, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 134, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #rechercher {
     left: 450px;
   }
-  /* line 124, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 138, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #list_villes {
     left: 150px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 131, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 145, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #button1 {
     left: 287.5px;
   }
-  /* line 135, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 149, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #button2 {
     left: 512.5px;
   }
-  /* line 139, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 153, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #inputTemp {
     left: 400px;
   }
-  /* line 143, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 157, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #ville {
     left: 250px;
   }
-  /* line 147, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 161, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #rechercher {
     left: 550px;
   }
-  /* line 151, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 165, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #list_villes {
     left: 250px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  /* line 158, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 172, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #button1 {
     top: 40px;
     left: 460px;
   }
-  /* line 163, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 177, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #button2 {
     top: 40px;
     left: 405px;
   }
-  /* line 168, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 182, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #inputTemp {
     left: 400px;
   }
-  /* line 172, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 186, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #ville {
     left: 50px;
   }
-  /* line 176, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 190, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #rechercher {
     left: 350px;
   }
-  /* line 180, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 194, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #list_villes {
     left: 50px;
   }
-  /* line 183, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 197, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #inputHumidity, #inputTemp {
     display: inline;
     position: absolute;
@@ -623,12 +638,12 @@ p:hover {
     padding-left: 15px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
-  /* line 197, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 211, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #inputTemp {
     top: 40px;
     left: 75vw;
   }
-  /* line 201, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
+  /* line 215, ../wamp64/www/MIW/Netatmo_V2/Netatmo-API-PHP/css/scss/_navbar.scss */
   #inputHumidity {
     top: 40px;
     left: 84.7vw;
