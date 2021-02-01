@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d40d33a2-bfd9-41a4-b09f-2d5d6c41681a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Netatmo-API-PHP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Netatmo-API-PHP/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netatmo-API-PHP/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Netatmo-API-PHP/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611935289554</updated>
       <workItem from="1611935290773" duration="2077000" />
+      <workItem from="1612183401644" duration="64000" />
     </task>
     <servers />
   </component>
