@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+   <link rel="stylesheet" href="css/style.css"/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+   <title>Netatmo</title>
+   <style>
+   #maCarte {
+      width : 100vw;
+      height : 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+   }
+   </style>
+</head>
+   <div id="maCarte"></div>
+   <button id="button1" type="button" name="button" onclick="actualiseMap();">Rechercher dans cette zone</button>
+   <button id="button2" type="button" name="button" onclick="userPosition();"><span id="locate" class="fa fa-spinner fa-spin"></span></button>
+   <input id="inputTemp" type="text" name="pourcentageTemp" value="🌡️" disabled>
+   <input id="inputHumidity" type="text" name="pourcentageTemp" value="💧" disabled>
+   <input id="ville" type="text" list="list_villes" name="ville" placeholder="Ville, rue, adresse..." oninput="chargeVilles()">
+   <div id="list_villes"></div>
+<button id="rechercher" type="button" value="Rechercher" onclick="recherche()"><i class="fa fa-search"></i></button>
+<div class="infos">
+   <div class="nav_infos">
+      <div class="time">
+         <!-- <img src="icons/time.svg"> -->
+         <i class="fas fa-clock"></i>
+         <p id="heureMAJ">Heure</p>
+      </div>
+      <div class="trait">
+         <svg xmlns="http://www.w3.org/2000/svg" width="56" height="5" viewBox="0 0 56 5">
+            <line id="Ligne_4" data-name="Ligne 4" x2="51" transform="translate(2.5 2.5)" fill="none" stroke="#ff8f15" stroke-linecap="round" stroke-width="5"/>
+         </svg>
+      </div>
+      <div class="icons">
+         <div>
+            <!-- <img src="icons/Home.svg"> -->
+            <i class="fa fa-home"></i>
+         </div>
+         <div class="close">
+            <!-- <img  src="icons/Close.svg"> -->
+            <i class="fa fa-times-circle"></i>
+         </div>
+      </div>
+   </div>
+   <div class="adress">
+      <h1 id="adr1">Ville inconnue</h1>
+      <h2 id="adr2">Adresse inconnue</h2>
+      <h2 id="adr3">Altitude inconnue</h2>
+   </div>
+   <div class="measures">
+      <!--<img src="icons/DripDripDrip.svg">-->
+      <div class="data">
+         <div class="value">
+            <img src="temp.svg">
+            <p id="tempData">Température inconnue</p>
+         </div>
+         <img src="fond.svg">
+      </div>
+      <div class="data">
+         <div class="value">
+            <img src="Humidity.svg">
+            <p id="humData">Humidité inconnue</p>
+         </div>
+         <img src="fond.svg">
+      </div>
+      <div class="data">
+         <div class="value">
+            <img src="pressure.svg">
+            <p id="pressData">Pression inconnue</p>
+         </div>
+         <img src="fond.svg">
+      </div>
+   </div>
+</div>
+
+</body>
+<script
+   src="https://code.jquery.com/jquery-3.5.1.js"
+   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+   crossorigin="anonymous">
+</script>
+<script src="script.js"></script>
+</html>

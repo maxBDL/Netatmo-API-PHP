@@ -1,0 +1,83 @@
+.infos {
+   position: fixed;
+   z-index: 1001;
+   top: 0;
+   right: 0;
+   height: 100vh;
+   min-width: 50vw;
+   transform: translateX(100%);
+   transition: 1s ease-in-out;
+   background-color: white;
+   z-index: 999;
+   .nav_infos{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: $dark_blue;
+      border-radius: 0 0 75px 75px;
+      height: 100px;
+
+      i, p {
+         color: white;
+         font-size: 30px;
+         padding: 10px;
+      }
+
+      i:hover {
+       color: #ff8f15;
+      }
+
+      p:hover {
+         background-color: transparent;
+      }
+
+      .time, .trait{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+      }
+      .icons{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+         align-items: center;
+      }
+   }
+   .adress{
+      color: $dark_blue;
+      text-align: center;
+   }
+   .measures{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+      overflow-y: scroll;
+      .data{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         margin-bottom: 50px;
+         max-height: 135px;
+         .value{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: $dark_blue;
+         }
+      }
+   }
+}
+
+
+
+
+
+.active {
+   transform: translateX(0);
+}

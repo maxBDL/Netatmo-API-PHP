@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="135" height="68" viewBox="0 0 135 68">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Soustraction_5" data-name="Soustraction 5" d="M135,68H0c0-.084,0-.167,0-.25s0-.167,0-.25A67.518,67.518,0,0,1,129.7,41.226,67.084,67.084,0,0,1,135,67.5c0,.166,0,.333,0,.5Z" transform="translate(135 68) rotate(180)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Groupe_de_masques_6" data-name="Groupe de masques 6" clip-path="url(#clip-path)">
+    <g id="Texture" transform="translate(-34 -102)">
+      <path id="That_s_enough_" data-name="That&apos;s enough!" d="M0-42.008s19.479-15.813,50.979,5.983c8.623,5.966,23.281,11.952,35.3,4.747s22.348,1.561,30.387,9.663C134.184-3.96,157.03-23.58,157.03-23.58V107.561s-45.372,11.386-67.446-9.931c-8.873-8.568-19.192-32.649-41.252-13.865S0,84.451,0,84.451Z" transform="translate(9.652 150.206)" fill="#3c76fe" opacity="0.79"/>
+      <path id="More_Sauce" data-name="More Sauce" d="M157.03-42.008s-19.479-15.813-50.979,5.983c-8.623,5.966-23.281,11.952-35.3,4.747S48.4-29.717,40.361-21.616C22.846-3.963,0-23.579,0-23.579V41.793S27.4,79.526,53.676,56.375c13.666-12.039,40.45,22.646,64.156,6.53s39.2,21.546,39.2,21.546Z" transform="translate(9.652 158.1)" fill="#3c76fe" opacity="0.46"/>
+      <path id="Sauce" d="M0,84.761s19.479,13.71,50.979-5.184C59.6,74.4,74.26,69.215,86.282,75.462s22.348-1.353,30.387-8.378c17.515-15.3,40.361,1.7,40.361,1.7v-113.7s-45.372-9.871-67.446,8.607C80.711-28.882,70.393-8,48.332-24.288S0-24.878,0-24.878Z" transform="translate(9.652 163.549)" fill="#3c76fe" opacity="0.186"/>
+      <text id="_3c76fe" data-name="#3c76fe" fill="#707070" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="22">#3c76fe</tspan></text>
+    </g>
+  </g>
+</svg>
