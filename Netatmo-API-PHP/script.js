@@ -1,6 +1,6 @@
 const span = document.querySelector('.fa');
 var carte = L.map('maCarte', {center: [44.56, 6.08],zoom: 14,zoomControl: false});
-L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(carte);
+L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: ''}).addTo(carte);
 L.control.zoom({position:'bottomleft'}).addTo(carte);
 
 carte.options.maxZoom = 17;
