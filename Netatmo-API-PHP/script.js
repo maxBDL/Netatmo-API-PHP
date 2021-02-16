@@ -241,7 +241,7 @@ var searchMarker = L.marker([0, 0], {icon: markerO}).addTo(carte);
 function recherche() {
    list_villes.innerHTML = '';
    carte.removeLayer(searchMarker);
-   if (ville.value != '') {
+   if (ville.value.replace(/\s+/, '').length) {
       $.ajax({
          url: "https://api-adresse.data.gouv.fr/search/?q="+ville.value+"&limit=1",
          success: function(data) {

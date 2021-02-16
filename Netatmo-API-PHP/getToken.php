@@ -3,8 +3,8 @@
 include_once('src/Netatmo/autoload.php');
 
 $config = array();
-$config['client_id'] = '5ff42bdbabc37c2625058e5c';
-$config['client_secret'] = 'Jf0HCahwD8K4Jqx8MA4xtOtIt5FsFEHqRt4Rf';
+$config['client_id'] = '60184785e8fca671b564805d';
+$config['client_secret'] = 'sbJyZPEepZ3DlUhaSPxplcISvhNv0u2ARP';
 $config['scope'] = 'read_station read_thermostat write_thermostat';
 $client = new Netatmo\Clients\NAApiClient($config);
 
