@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d40d33a2-bfd9-41a4-b09f-2d5d6c41681a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netatmo-API-PHP/css/scss/_infos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Netatmo-API-PHP/css/scss/_infos.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netatmo-API-PHP/css/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Netatmo-API-PHP/css/scss/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netatmo-API-PHP/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Netatmo-API-PHP/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Netatmo-API-PHP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Netatmo-API-PHP/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projet_tuteure_miw" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -38,10 +41,21 @@
       <updated>1611935289554</updated>
       <workItem from="1611935290773" duration="2077000" />
       <workItem from="1612183401644" duration="502000" />
+      <workItem from="1615122652837" duration="3352000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2180" y="280" key="FileChooserDialogImpl" timestamp="1615123624839">
+      <screen x="1920" y="2" width="1920" height="1040" />
+    </state>
+    <state x="2180" y="280" key="FileChooserDialogImpl/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1615123624839" />
+    <state x="2645" y="2" width="954" height="696" key="dock-window-1" timestamp="1615125779110">
+      <screen x="1920" y="2" width="1920" height="1040" />
+    </state>
+    <state x="2645" y="2" width="954" height="696" key="dock-window-1/0.0.1920.1040/1920.2.1920.1040@1920.2.1920.1040" timestamp="1615125779110" />
   </component>
 </project>

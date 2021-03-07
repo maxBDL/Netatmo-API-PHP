@@ -1,14 +1,19 @@
 .infos {
    position: fixed;
-   z-index: 1001;
+   //z-index: 1001;
    top: 0;
    right: 0;
    height: 100vh;
-   min-width: 50vw;
+   //min-width: 25vw;
+   width: 100%;
+   max-width: 600px;
    transform: translateX(100%);
    transition: 1s ease-in-out;
    background-color: white;
    z-index: 999;
+   .container{
+      overflow-y: auto;
+   }
    .nav_infos{
       display: flex;
       flex-direction: row;
